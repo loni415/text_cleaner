@@ -1,0 +1,5 @@
+# Inherit all properties from your base llama3.1 model
+FROM llama3.1:8b-instruct-fp16
+
+# Set a new, larger context window size in tokens (16k)
+PARAMETER num_ctx 16384
