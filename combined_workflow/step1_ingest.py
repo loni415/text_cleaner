@@ -1,6 +1,7 @@
 import os
 import argparse
 from tqdm import tqdm
+#from unstructured.partition.api import partition_via_api
 from unstructured.partition.auto import partition
 
 def find_supported_files(directory: str) -> list:
